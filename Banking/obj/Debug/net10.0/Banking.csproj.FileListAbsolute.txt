@@ -1,0 +1,15 @@
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.AssemblyInfoInputs.cache
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.AssemblyInfo.cs
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.sourcelink.json
+D:\VisualStudioProject\Banking\bin\Debug\net10.0\Banking.exe
+D:\VisualStudioProject\Banking\bin\Debug\net10.0\Banking.deps.json
+D:\VisualStudioProject\Banking\bin\Debug\net10.0\Banking.runtimeconfig.json
+D:\VisualStudioProject\Banking\bin\Debug\net10.0\Banking.dll
+D:\VisualStudioProject\Banking\bin\Debug\net10.0\Banking.pdb
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.dll
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\refint\Banking.dll
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.pdb
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\Banking.genruntimeconfig.cache
+D:\VisualStudioProject\Banking\obj\Debug\net10.0\ref\Banking.dll
