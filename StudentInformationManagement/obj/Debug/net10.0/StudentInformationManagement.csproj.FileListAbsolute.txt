@@ -1,0 +1,15 @@
+D:\VisualStudioProject\StudentInformationManagement\bin\Debug\net10.0\StudentInformationManagement.exe
+D:\VisualStudioProject\StudentInformationManagement\bin\Debug\net10.0\StudentInformationManagement.deps.json
+D:\VisualStudioProject\StudentInformationManagement\bin\Debug\net10.0\StudentInformationManagement.runtimeconfig.json
+D:\VisualStudioProject\StudentInformationManagement\bin\Debug\net10.0\StudentInformationManagement.dll
+D:\VisualStudioProject\StudentInformationManagement\bin\Debug\net10.0\StudentInformationManagement.pdb
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.AssemblyInfoInputs.cache
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.AssemblyInfo.cs
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.sourcelink.json
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.dll
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\refint\StudentInformationManagement.dll
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.pdb
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\StudentInformationManagement.genruntimeconfig.cache
+D:\VisualStudioProject\StudentInformationManagement\obj\Debug\net10.0\ref\StudentInformationManagement.dll
