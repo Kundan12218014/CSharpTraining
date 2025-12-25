@@ -1,0 +1,15 @@
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.AssemblyInfoInputs.cache
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.AssemblyInfo.cs
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.sourcelink.json
+D:\VisualStudioProject\AbstractClass\bin\Debug\net10.0\AbstractClass.exe
+D:\VisualStudioProject\AbstractClass\bin\Debug\net10.0\AbstractClass.deps.json
+D:\VisualStudioProject\AbstractClass\bin\Debug\net10.0\AbstractClass.runtimeconfig.json
+D:\VisualStudioProject\AbstractClass\bin\Debug\net10.0\AbstractClass.dll
+D:\VisualStudioProject\AbstractClass\bin\Debug\net10.0\AbstractClass.pdb
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.dll
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\refint\AbstractClass.dll
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.pdb
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\AbstractClass.genruntimeconfig.cache
+D:\VisualStudioProject\AbstractClass\obj\Debug\net10.0\ref\AbstractClass.dll
