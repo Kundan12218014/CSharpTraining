@@ -1,0 +1,15 @@
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.AssemblyInfoInputs.cache
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.AssemblyInfo.cs
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.sourcelink.json
+D:\VisualStudioProject\ArrayDemoApp\bin\Debug\net10.0\ArrayDemoApp.exe
+D:\VisualStudioProject\ArrayDemoApp\bin\Debug\net10.0\ArrayDemoApp.deps.json
+D:\VisualStudioProject\ArrayDemoApp\bin\Debug\net10.0\ArrayDemoApp.runtimeconfig.json
+D:\VisualStudioProject\ArrayDemoApp\bin\Debug\net10.0\ArrayDemoApp.dll
+D:\VisualStudioProject\ArrayDemoApp\bin\Debug\net10.0\ArrayDemoApp.pdb
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.dll
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\refint\ArrayDemoApp.dll
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.pdb
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ArrayDemoApp.genruntimeconfig.cache
+D:\VisualStudioProject\ArrayDemoApp\obj\Debug\net10.0\ref\ArrayDemoApp.dll
