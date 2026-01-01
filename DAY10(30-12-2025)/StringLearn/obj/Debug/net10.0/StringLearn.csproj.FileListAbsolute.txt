@@ -1,0 +1,15 @@
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\bin\Debug\net10.0\StringLearn.exe
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\bin\Debug\net10.0\StringLearn.deps.json
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\bin\Debug\net10.0\StringLearn.runtimeconfig.json
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\bin\Debug\net10.0\StringLearn.dll
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\bin\Debug\net10.0\StringLearn.pdb
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.AssemblyInfoInputs.cache
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.AssemblyInfo.cs
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.sourcelink.json
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.dll
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\refint\StringLearn.dll
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.pdb
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\StringLearn.genruntimeconfig.cache
+D:\VisualStudioProject\DAY10(30-12-2025)\StringLearn\obj\Debug\net10.0\ref\StringLearn.dll
