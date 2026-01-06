@@ -1,0 +1,15 @@
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.exe
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.deps.json
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.runtimeconfig.json
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.dll
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.pdb
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.AssemblyInfoInputs.cache
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.AssemblyInfo.cs
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.sourcelink.json
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.dll
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\refint\ExceptionHandling.dll
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.pdb
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.genruntimeconfig.cache
+D:\VisualStudioProject\DAY13(06-01-2026)\ExceptionHandling\obj\Debug\net10.0\ref\ExceptionHandling.dll
