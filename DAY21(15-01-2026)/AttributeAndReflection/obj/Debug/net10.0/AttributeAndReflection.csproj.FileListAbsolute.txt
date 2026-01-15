@@ -1,0 +1,15 @@
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\bin\Debug\net10.0\AttributeAndReflection.exe
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\bin\Debug\net10.0\AttributeAndReflection.deps.json
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\bin\Debug\net10.0\AttributeAndReflection.runtimeconfig.json
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\bin\Debug\net10.0\AttributeAndReflection.dll
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\bin\Debug\net10.0\AttributeAndReflection.pdb
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.AssemblyInfoInputs.cache
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.AssemblyInfo.cs
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.sourcelink.json
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.dll
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\refint\AttributeAndReflection.dll
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.pdb
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\AttributeAndReflection.genruntimeconfig.cache
+D:\VisualStudioProject\DAY21(15-01-2026)\AttributeAndReflection\obj\Debug\net10.0\ref\AttributeAndReflection.dll
