@@ -1,0 +1,15 @@
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.AssemblyInfoInputs.cache
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.AssemblyInfo.cs
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.sourcelink.json
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\bin\Debug\net10.0\CalculatorUsingDelegate.exe
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\bin\Debug\net10.0\CalculatorUsingDelegate.deps.json
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\bin\Debug\net10.0\CalculatorUsingDelegate.runtimeconfig.json
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\bin\Debug\net10.0\CalculatorUsingDelegate.dll
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\bin\Debug\net10.0\CalculatorUsingDelegate.pdb
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.dll
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\refint\CalculatorUsingDelegate.dll
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.pdb
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\CalculatorUsingDelegate.genruntimeconfig.cache
+D:\VisualStudioProject\DAY20(14-01-2026)\CalculatorUsingDelegate\obj\Debug\net10.0\ref\CalculatorUsingDelegate.dll
