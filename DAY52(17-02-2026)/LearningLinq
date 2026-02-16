@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Student{
+    public int Id{get;set;}
+    public string Name{get;set;}
+    public int Age{get;set;}
+    public string Department{get;set;}
+    public double Marks{get;set;}
+    public List<Course> Courses{get;set;}=new ();
+}
+public class Department{
+    public int Id{get;set;}
+    public string Name{get;set;}
+}
+public class Course{
+    public string Name{get;set;}
+    public int Credits{get;set;}
+}
+
+public class Program{
+    public static void Main(){
+               List<Student> students = new()
+        {
+            new Student { Id = 1, Name = "Kundan", Age = 21, Department = "CS", Marks = 85 },
+            new Student { Id = 2, Name = "Rahul", Age = 22, Department = "IT", Marks = 70 },
+            new Student { Id = 3, Name = "Amit", Age = 20, Department = "CS", Marks = 90 },
+            new Student { Id = 4, Name = "Sneha", Age = 23, Department = "ECE", Marks = 60 },
+            new Student { Id = 5, Name = "Priya", Age = 21, Department = "IT", Marks = 75 }
+        };
+        
+        List<Department> departments = new()
+        {
+            new Department { Id = 1, Name = "CS" },
+            new Department { Id = 2, Name = "IT" },
+            new Department { Id = 3, Name = "ECE" }
+        };
+        
+        students[0].Courses=new List<Course>{
+            new Course{Name="Math",Credits=4},
+            new Course{Name="Physics",Credits=3}
+        };
+       students[1].Courses=new List<Course>{
+            new Course{Name="Math",Credits=4}
+        };
+        students[2].Courses=new List<Course>{
+            new Course {Name="Chemistry",Credits=3}
+        };
+        
+        
+        var names=students.Select(s=>s.Name);
+        Console.WriteLine(string.Join(",",names));
+        
+        var courses=students.SelectMany(s=>s.Courses);
+        foreach(var course in courses){
+            Console.WriteLine((course.Name+ " "+course.Credits));
+        }
+        Console.WriteLine(string.Join(",",courses.Select(c=>c.Name+" "+c.Credits)));
+        
+        var highMarks=students.Where(e=>e.Marks>70);
+        foreach(var student in highMarks){
+            var courseList=string.Join(",",student.Courses.Select(c=>c.Name+" "+c.Credits));
+            Console.WriteLine($"{student.Name} - {student.Marks} -> {courseList}");
+        }
+    }
+}
