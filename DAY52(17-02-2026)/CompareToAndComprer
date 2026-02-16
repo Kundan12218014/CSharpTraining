@@ -1,0 +1,83 @@
+using System;
+using System.Collections.Generic;
+public class Product:IComparable<Product>{
+    public string Name {get;set;}
+    public int Price{get;set;}
+    public double Rating{get;set;}
+    public Product(string name,int price,double rating){
+        Name=name;
+        Price=price;
+        Rating=rating;
+    }
+    public int CompareTo(Product other){
+        if(other==null)return 1;
+        int result=this.Price.CompareTo(other.Price);
+        
+        if(result==0)
+        {
+            result=this.Name.CompareTo(other.Name);
+        }
+        return result;
+    }
+    
+    public override string ToString(){
+        return $"Name: {Name} |Price: {Price} |Rating: {Rating}";
+    }
+}
+//SortByName
+class ProductNameComparer:IComparer<Product>{
+    public int Compare(Product x, Product y){
+        return x.Name.CompareTo(y.Name);
+    }
+}
+//RateByDecending
+
+class ProductRatingComparer:IComparer<Product>{
+    public int Compare(Product x ,Product y){
+    if (x == null && y == null) return 0;
+    if (x == null) return -1;
+    if (y == null) return 1;
+        return y.Rating.CompareTo(x.Rating);
+    }
+}
+class Program {
+  static void Main() {
+    List<Product>products=new List<Product>
+    {
+        new Product("Laptop",800,4.5),
+        new Product("Mouse",20,4.3),
+        new Product("Keyboard",509,3.4),
+        new Product("Monitor",30,4.1),
+        new Product("USB",30,3.3)
+    };
+    Console.WriteLine("--------Default Sort(Price then Name)-------");
+    products.Sort();
+    PrintProduct(products);
+    
+    Console.WriteLine("--------(ComparerSortByName)-------");
+    products.Sort(new ProductNameComparer());
+    PrintProduct(products);
+    
+    Console.WriteLine("--------(ComparerSortByRatingDecending)-------");
+    // products.Sort(new ProductRatingComparer());
+    //using Lambda
+    // products.Sort((x,y)=>y.Rating.CompareTo(x.Rating));
+    // products.Sort((x,y)=>{
+    //   if(x==null && y ==null)return  0;
+    //   if(x==null)return -1;
+    //   if(y==null)return 1;
+    //   int result=y.Rating.CompareTo(x.Rating);
+    //   if(result==0)
+    //         result=x.Price.CompareTo(y.Price);
+    //     return result;
+    // });
+    
+    var sorted=products.OrderByDescending(p=>p.Rating).ThenBy(p=>p.Price).ToList();
+    PrintProduct(sorted);
+  }
+  static void PrintProduct(List<Product>products){
+      foreach(var p in products){
+          Console.WriteLine(p);
+      }
+  }
+}
