@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -31,5 +32,10 @@ class HelloWorld {
 
 string json = JsonSerializer.Serialize(students,new JsonSerializerOptions{WriteIndented=true});
  Console.WriteLine(json);
+
+
+ File.WriteAllText("student.json",json);
+ string js= File.ReadAllText("student.json");
+ Console.WriteLine(js);
   }
 }
