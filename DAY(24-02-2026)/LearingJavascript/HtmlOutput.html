@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takinginput form user using the prompt</title>
+</head>
+
+<body>
+  <p id="greet"></p>
+  <p id="result"></p>
+  <script>
+    document.getElementById('greet').innerHTML = "hellow world";
+    var x = 10;
+    var y = 20;
+    var sum = x + y;
+    document.getElementById('result').innerHTML = sum;
+    // alert(sum);
+    // document.write(sum);
+  </script>
+  <!-- 1 Way to Take input -->
+  <!-- <input type="text" id="nameInput" placeholder="Enter you name">
+  <button onclick="displayGreeting()">Submit </button>
+  <script>
+    function displayGreeting(){
+      const name=document.getElementById('nameInput').value;
+      alert(`Hello , ${name}`);
+    }
+  </script> -->
+  <!-- <script>
+    const userInput = prompt("please enter you name", "geeks for geeks user");
+    if (userInput != null) {
+      alert(`Hello , ${userInput}`);
+    }
+    else {
+      alert("You have cancelled input ");
+    } -->
+  </script>
+</body>
+
+</html>
