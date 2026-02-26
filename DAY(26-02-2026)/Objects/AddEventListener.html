@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    #box {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      margin-top: 20px;
+    }
+
+    #parent {
+      padding: 20px;
+      background-color: lightgray;
+    }
+
+    #child {
+      padding: 20px;
+      background-color: lightcoral;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>========== addEventListener Demo =========</h2>
+
+  <!-- 1️ Click Event -->
+  <button id="clickBtn">Click Me</button>
+
+  <!-- 2️ Double Click Event -->
+  <button id="dblClickBtn">Double Click Me</button>
+
+  <!-- 3️ Mouse Events -->
+  <div id="box">Hover Over Me</div>
+
+  <!-- 4️ Keyboard Event -->
+  <br><br>
+  <input type="text" id="keyInput" placeholder="Type Something">
+
+  <!-- 5️ Input Event -->
+  <br><br>
+  <input type="text" id="liveInput" placeholder="Live Typing">
+
+  <p id="liveOutput"></p>
+
+  <!-- 6️ Form Submit -->
+  <form id="myForm">
+    <input type="text" placeholder="Enter Name" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- 7️ Event Bubbling -->
+  <h3>Event Bubbling Example</h3>
+  <div id="parent">
+    Parent Div
+    <div id="child">
+      Child Div
+    </div>
+  </div>
+  <script>
+    //1
+    document.getElementById('clickBtn').addEventListener('click', (event) => {
+      console.log("Button Clicked");
+    });
+    //2
+    document.getElementById('dblClickBtn').addEventListener("dblclick", function () {
+      console.log("Buttton double clicked");
+    });
+    //3
+    let box = document.getElementById('box');
+    box.addEventListener('mouseover', function () {
+      box.style.backgroundColor = "yellow";
+      console.log("Mouse over Box");
+    });
+    box.addEventListener('mouseout', function () {
+      box.style.backgroundColor = 'lightblue';
+      console.log("mouse left box");
+    });
+    //4. keyboard event
+    document.getElementById('keyInput').addEventListener('keydown', function (event) {
+      console.log('Key Down Event!', event.key);
+    });
+
+    //5
+    document.getElementById("liveInput").addEventListener('input', function (event) {
+      document.getElementById('liveOutput').textContent = "You Typed: " + event.target.value;
+    });
+
+  //6. form submit event
+  document.getElementById('myForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    console.log('Form Submitted successfully!');
+  });
+      ///7
+      document.getElementById("parent").addEventListener('click', function () {
+        console.log("Parent Clikced");
+      });
+    document.getElementById('child').addEventListener('click', function (event) {
+      console.log("child div clicked");
+      // event.stopPropagation();
+    });
+    //8
+    window.addEventListener('load', function () {
+      console.log("page loaded Sucessfully");
+    })
+  </script>
+</body>
+
+</html>
