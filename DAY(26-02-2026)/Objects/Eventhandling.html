@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript Event handling</title>
+</head>
+
+<body>
+  <h2>OnClickEvent(inline)</h2>
+  <button onclick="console.log('button clicked')">Button Me</button>
+  <br><br>
+  <h2>Click Event(External)</h2>
+  <button id="myBtn">Click Me(js Hanlder)</button>
+  <br><br>
+  <h2>Rigth Click event</h2>
+  <button oncontextmenu="console.log('Right clcik detected');return false;">Right click on me</button>
+  <br><br>
+  <h2>Mouse Events</h2>
+  <button onmouseover="console.log('mouse over button')" onmouseout="console.log('mouse left button!')">Hover Over
+    me</button>
+  <br><br>
+  <h2>keybroad event</h2>
+
+  <input type="text" placeholder="Type something" onkeydown="console.log('key down event')">
+  <br><br>
+  <textarea placeholder="Type inside textarea" onkeydown="console.log('key pressed in text area')" rows="4"
+    cols="50"></textarea>
+
+  <form id="myForm">
+    <input type="text" placeholder="Enter name" required>
+    <button type="submit" id="myFromBtn">Submit</button>
+  </form>
+  <script>
+    document.getElementById('myBtn').addEventListener('click', function () {
+      console.log("Btn Pressed");
+    });
+    document.getElementById('myFromBtn').addEventListener('click', function (event) {
+      console.log("Welcome to web developement");
+      console.log(event.preventDefault());
+    });
+  </script>
+</body>
+
+</html>
