@@ -1,0 +1,10 @@
+﻿@model TwoFactorAuthProject.ViewModels.VerifyCodeViewModel
+<!-- Views/Account/VerifyCode.cshtml -->
+<form method="post">
+    <input type="hidden" asp-for="Provider" />
+    <input type="hidden" asp-for="RememberMe" />
+    <label>Enter verification code</label>
+    <input type="text" name="Code" maxlength="6" />
+    <input type="checkbox" name="RememberMachine" /> Remember this device
+    <button type="submit">Verify</button>
+</form>

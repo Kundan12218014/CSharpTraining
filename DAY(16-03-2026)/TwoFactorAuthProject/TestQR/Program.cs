@@ -1,0 +1,1 @@
+using QRCoder; var qrCodeData = new QRCodeGenerator().CreateQrCode("test", QRCodeGenerator.ECCLevel.Q); var qrCode = new Base64QRCode(qrCodeData); System.Console.WriteLine(qrCode.GetGraphic(20).Substring(0, 10));

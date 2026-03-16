@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Setup Authenticator App";
+}
+
+<h2>Configure Two-Factor Authentication</h2>
+
+<div class="card shadow-sm mt-4" style="max-width: 500px;">
+    <div class="card-body text-center">
+        <p>Scan this QR Code using an authenticator app (like Google Authenticator or Microsoft Authenticator):</p>
+
+        <img src="data:image/png;base64,@ViewBag.QRCode" 
+             class="img-thumbnail mb-3" 
+             style="width: 250px; height: 250px;" 
+             alt="QR Code" />
+
+        <p class="text-muted small">Or enter this key manually:</p>
+        <div class="alert alert-secondary">
+            <strong>@ViewBag.Key</strong>
+        </div>
+
+        <hr />
+
+        <form asp-action="VerifyAuthenticator" asp-controller="Account" method="post" class="mt-3 text-start">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label for="code" class="form-label">Enter the 6-digit code from your app</label>
+                <input type="text" id="code" name="code" class="form-control text-center fs-4" maxlength="6" placeholder="000000" autocomplete="off" required />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Verify and Enable</button>
+        </form>
+    </div>
+</div>

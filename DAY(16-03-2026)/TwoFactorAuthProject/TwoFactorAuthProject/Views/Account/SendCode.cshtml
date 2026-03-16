@@ -1,0 +1,15 @@
+@model TwoFactorAuthProject.ViewModels.SendCodeViewModel
+
+<h2>Select Two-Factor Authentication Provider</h2>
+<div class="card shadow-sm mt-4" style="max-width: 500px;">
+    <div class="card-body">
+        <form asp-action="SendCode" asp-controller="Account" method="post">
+            <input type="hidden" asp-for="RememberMe" />
+            <div class="form-group mb-3">
+                <label asp-for="SelectedProvider">Select a provider to receive your verification code:</label>
+                <select asp-for="SelectedProvider" asp-items="Model.Providers" class="form-control"></select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Code/Continue</button>
+        </form>
+    </div>
+</div>
