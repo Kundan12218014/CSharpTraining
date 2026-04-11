@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Index - Simple Calculator</title>
+      <style>
+        * {
+          box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        body {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(135deg, #eef2ff, #f8fafc);
+          padding: 10px;
+        }
+
+        .calculator-card {
+          width: 100%;
+          max-width: 360px;
+          background: #ffffff;
+          border-radius: 12px;
+          padding: 24px 20px;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+          text-align: center;
+          font-size: 1.25rem;
+          color: #1a1a1a;
+          margin-bottom: 16px;
+        }
+
+        .field {
+          margin-bottom: 16px;
+        }
+
+        label {
+          display: block;
+          font-size: 1rem;
+          font-weight: 600;
+          color: #444;
+          margin-bottom: 8px;
+        }
+
+        input {
+          width: 100%;
+          padding: 10px 12px;
+          font-size: 1.05rem;
+          border: 1.5px solid #ddd;
+          border-radius: 8px;
+          outline: none;
+          transition: border-color 0.2s ease;
+        }
+
+        input:focus {
+          border-color: #3b82f6;
+        }
+
+        .button-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+          margin-top: 4px;
+          margin-bottom: 24px;
+        }
+
+        button {
+          border: none;
+          padding: 12px;
+          font-size: 1.05rem;
+          color: #fff;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+
+        button:hover {
+          opacity: 0.92;
+          transform: translateY(-1px);
+        }
+
+        .add {background: #4caf50; }
+        .subtract {background: #2196f3; }
+        .multiply {background: #ff9800; }
+        .divide {background: #f44336; }
+
+        .result-box {
+          background: #f8fafc;
+          border-radius: 10px;
+          padding: 20px 15px;
+          text-align: center;
+          border: 1px solid #e2e8f0;
+        }
+
+        .result-title {
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: #64748b;
+          margin-bottom: 6px;
+        }
+
+        .result-value {
+          font-size: 1.3rem;
+          font-weight: 700;
+          color: #1e293b;
+          word-break: break-word;
+        }
+
+        .error {
+          color: #ef4444;
+          font-size: 0.85rem;
+          text-align: center;
+          margin-top: 12px;
+          min-height: 20px;
+        }
+
+        @media (max-width: 440px) {
+          .calculator-card {
+            padding: 20px 16px;
+            border-radius: 12px;
+          }
+
+          h1 {
+            font-size: 1.3rem;
+          }
+
+          label, input, button {
+            font-size: 1rem;
+          }
+
+          .result-title {
+            font-size: 1rem;
+          }
+
+          .result-value {
+            font-size: 1.2rem;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="calculator-card">
+        <h1>Simple Calculator</h1>
+
+        <div class="field">
+          <label for="firstNumber">First Number (Integer)</label>
+          <input type="number" id="firstNumber" placeholder="Enter first number" step="any" />
+        </div>
+
+        <div class="field">
+          <label for="secondNumber">Second Number (Integer)</label>
+          <input type="number" id="secondNumber" placeholder="Enter second number" step="any" />
+        </div>
+
+        <div class="button-grid">
+          <button class="add" onclick="calculate('add')">Add</button>
+          <button class="subtract" onclick="calculate('subtract')">Subtract</button>
+          <button class="multiply" onclick="calculate('multiply')">Multiply</button>
+          <button class="divide" onclick="calculate('divide')">Division</button>
+        </div>
+
+        <div class="result-box">
+          <div class="result-title">Calculated Result</div>
+          <div class="result-value" id="result">Enter values to calculate</div>
+        </div>
+
+        <div class="error" id="error"></div>
+      </div>
+
+      <script>
+        function getValues() {
+      const firstInput = document.getElementById('firstNumber').value.trim();
+        const secondInput = document.getElementById('secondNumber').value.trim();
+        const errorBox = document.getElementById('error');
+
+        errorBox.textContent = '';
+
+        if (firstInput === '' || secondInput === '') {
+          errorBox.textContent = 'Please enter both numbers.';
+        return null;
+      }
+
+        const a = Number(firstInput);
+        const b = Number(secondInput);
+
+        if (Number.isNaN(a) || Number.isNaN(b)) {
+          errorBox.textContent = 'Please enter valid numbers.';
+        return null;
+      }
+
+        return {a, b};
+    }
+
+        function calculate(operation) {
+      const values = getValues();
+        if (!values) return;
+
+        const {a, b} = values;
+        const resultBox = document.getElementById('result');
+        const errorBox = document.getElementById('error');
+        let resultText = '';
+
+        switch (operation) {
+        case 'add':
+        resultText = `${a} + ${b} = ${a + b}`;
+        break;
+        case 'subtract':
+        resultText = `${a} - ${b} = ${a - b}`;
+        break;
+        case 'multiply':
+        resultText = `${a} × ${b} = ${a * b}`;
+        break;
+        case 'divide':
+        if (b === 0) {
+          errorBox.textContent = 'Division by zero is not allowed.';
+        resultBox.textContent = 'Cannot divide by zero';
+        return;
+          }
+        resultText = `${a} ÷ ${b} = ${(a / b).toFixed(2).replace(/\.00$/, '')}`;
+        break;
+        default:
+        resultText = 'Invalid operation';
+      }
+
+        resultBox.textContent = resultText;
+    }
+      </script>
+    </body>
+  </html>
